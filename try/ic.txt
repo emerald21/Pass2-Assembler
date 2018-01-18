@@ -1,0 +1,18 @@
+
+200 (IS,04), AREG (L, 1)
+203 (IS,05), AREG (A, 1)
+206 (IS,04), AREG (A, 1)
+209 (IS,04), CREG (B, 3)
+212 (IS,01), CREG (L, 2)
+215 (DS,07), CREG (NEXT, 4)
+
+220 (IS,02), AREG (L, 3)
+223 (DS,07), AREG (BACK, 5)
+226 (IS,00),
+    (AD,03) LOOP+2
+208 (IS,03), CREG (B, 3)
+    (AD,03) LAST+1
+227 (DL,02) 1
+    (AD,04) LOOP
+228 (DL,02) 1
+    (AD,02)
